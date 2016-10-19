@@ -1,5 +1,5 @@
 var express = require('express');
-var ctrl = express.router();
+var ctrl = express.Router();
 
 
 /* data for our routes */

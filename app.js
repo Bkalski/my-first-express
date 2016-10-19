@@ -18,9 +18,9 @@ var playgroundController = require('./controllers/playground');
 var userCtrl = require('./controllers/users');
 
 //then we map '/' routes to conrollers
-app.use('/', homeControllers);
+app.use('/', homeController);
 app.use('/play', playgroundController);
-app.use('/users', usersControllers);
+app.use('/users', userCtrl);
 
 
 app.listen(process.env.PORT || port);
